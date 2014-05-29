@@ -46,7 +46,7 @@ class BIM_Config_Dynamic{
 
     public static function growthEmailInvites(){
         return (object) array(
-        	'to_email' => 'shane@shanehill.com',
+        	'to_email' => 'someone@domain.com',
         	'to_name' => '',
         	'from_email' => 'invite@letsvolley.com',
         	'from_name' => 'GetVolleyApp',
@@ -57,7 +57,7 @@ class BIM_Config_Dynamic{
     public static function warningEmail(){
         return (object) array(
             'emailData' => (object) array(
-            	'to_email' => 'shane@shanehill.com',
+            	'to_email' => 'someone@domain.com',
             	'from_email' => 'apps@builtinmenlo.com',
             	'from_name' => 'Built In Menlo',
             	'subject' => 'Warning From Botlandia!!',
@@ -134,7 +134,7 @@ class BIM_Config_Dynamic{
             'api' => (object) array(
                 'accountSid' => '',
                 'authToken' => '',
-                'number' => '2394313268'
+                'number' => ''
             ),
         );
     }
@@ -211,7 +211,6 @@ class BIM_Config_Dynamic{
     public static function urbanAirship(){
         return (object) array(
             'api' => (object) array(
-                //'pass_key' => "qJAZs8c4RLquTcWKuL-gug:mbNYNOkaQ7CZJDypDsyjlQ", // dev
                 'pass_key' => "", // app_key:app_master_secret
                 'push_url' => 'https://go.urbanairship.com/api/push/',
             ),
